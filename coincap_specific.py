@@ -1,37 +1,40 @@
+""" This is to get the details of a specific currency"""
 import requests
-import json
 
-convert = "USD"
+# South African rand
+convert = "ZAR"
 
+# Need this in order to create a dict that contains all the currencies with corresponding id
 listing_url = "https://api.coinmarketcap.com/v2/listings/"
-url_end = "?structure=array&convert=" + convert
+url_end = "?structure=array&convert=" + convert # We want the json data to be in an array format and convert is equal to the local currency
 
 request = requests.get(listing_url)
 results = request.json()
 
 data = results["data"]
 
+# Dictionaries are arrays but they store key value pairs
+# Ticker symbol as key and id as value
 ticker_url_pairs = {}
 for currency in data:
     symbol = currency["symbol"]
     url = currency["id"]
-    ticker_url_pairs[symbol] = url
+    ticker_url_pairs[symbol] = url # Append each to dict
 
-# print(ticker_url_pairs)
 
 while True:
     choice = input("Enter the ticker symbol of a cryptocurrency: ")
+    # Convert input to uppercase
     choice = choice.upper()
 
+    # Pass type casted to our dictionary and whatever is stored there will be specified in the url
     ticker_url = "https://api.coinmarketcap.com/v2/ticker/" + str(ticker_url_pairs[choice]) + "/" + url_end
-    # print(ticker_url)
 
     request = requests.get(ticker_url)
     results = request.json()
 
-    # print(json.dumps(results, sort_keys=True, indent=4))
 
-    currency = results["data"][0]
+    currency = results["data"][0] # At the 0th index, otherise we'd be looping through each and every index
 
     rank = currency["rank"]
     name = currency["name"]
@@ -56,9 +59,9 @@ while True:
 
     print("\n")
     print(str(rank) + ": " + name + " (" + symbol + ")")
-    print("Market cap: \t\t$" + market_cap_string)
-    print("Price: \t\t\t$" + str(price))
-    print("24h Volume: \t\t$" + volume_string)
+    print("Market cap: \t\tR " + market_cap_string)
+    print("Price: \t\t\tR " + str(price))
+    print("24h Volume: \t\tR " + volume_string)
     print("Hour change: \t\t" + str(hour_change) + "%")
     print("Day change: \t\t" + str(day_change) + "%")
     print("Week change: \t\t" + str(week_change) + "%")

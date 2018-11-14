@@ -18,7 +18,7 @@ while True:
     limit = 100
     start = 1
     sort = "rank"
-    convert = "USD"
+    convert = "ZAR"
 
     choice = input("Do you want to enter any custom parameters? (y/n): ")
 
@@ -63,9 +63,9 @@ while True:
 
         print("\n")
         print(str(rank) + ": " + name + " (" + symbol + ")")
-        print("Market cap: \t\t$" + market_cap_string)
-        print("Price: \t\t\t$" + str(price))
-        print("24h Volume: \t\t$" + volume_string)
+        print("Market cap: \t\tR " + market_cap_string)
+        print("Price: \t\t\tR " + str(price))
+        print("24h Volume: \t\tR " + volume_string)
         print("Hour change: \t\t" + str(hour_change) + "%")
         print("Day change: \t\t" + str(day_change) + "%")
         print("Week change: \t\t" + str(week_change) + "%")

@@ -15,7 +15,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CryptoBot$coincap_global.coverage" NAME="coincap_global Coverage Results" MODIFIED="1541076788207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CryptoBot$coincap_specific.coverage" NAME="coincap_specific Coverage Results" MODIFIED="1542128751331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CryptoBot$coincap_specific.coverage" NAME="coincap_specific Coverage Results" MODIFIED="1542187092290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CryptoBot$coincap_ticker.coverage" NAME="coincap_ticker Coverage Results" MODIFIED="1542127909713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CryptoBot$coincap_listings.coverage" NAME="coincap_listings Coverage Results" MODIFIED="1541077484526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -24,7 +24,7 @@
       <file leaf-file-name="coincap_global.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coincap_global.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="51">
               <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
             </state>
           </provider>
@@ -42,8 +42,8 @@
       <file leaf-file-name="coincap_ticker.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coincap_ticker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="73" column="100" selection-start-line="73" selection-start-column="100" selection-end-line="73" selection-end-column="100" />
+            <state relative-caret-position="-212">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               <folding>
                 <element signature="e#327#338#0" expanded="true" />
               </folding>
@@ -54,11 +54,8 @@
       <file leaf-file-name="coincap_specific.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/coincap_specific.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="740">
+              <caret line="72" lean-forward="true" selection-start-line="71" selection-start-column="34" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -91,11 +88,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1654" />
+    <option name="y" value="8" />
+    <option name="width" value="1378" />
+    <option name="height" value="619" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -121,7 +118,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ITS-repo/insure-telematics-solutions" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -241,16 +238,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <frame x="-1928" y="-129" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" x="0" y="23" width="1366" height="705" id="Run" order="2" type="WINDOWED" visible="true" weight="0.4144527" />
+      <window_info anchor="bottom" x="1" y="31" width="1364" height="696" id="Run" order="2" type="WINDOWED" weight="0.4144527" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13323572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.094791666" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -274,13 +272,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/coincap_ticker.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
   </component>
@@ -378,10 +369,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coincap_global.py">
+    <entry file="file://$PROJECT_DIR$/coincap_ticker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="-212">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#327#338#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -392,23 +386,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coincap_ticker.py">
+    <entry file="file://$PROJECT_DIR$/coincap_global.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="73" column="100" selection-start-line="73" selection-start-column="100" selection-end-line="73" selection-end-column="100" />
-          <folding>
-            <element signature="e#327#338#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/coincap_specific.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="740">
+          <caret line="72" lean-forward="true" selection-start-line="71" selection-start-column="34" selection-end-line="72" />
         </state>
       </provider>
     </entry>
